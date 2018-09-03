@@ -1,12 +1,11 @@
-# minikube
-Minikube as well as k8s commands that I should document
+# Documenting my way to an Application-Deployment for Kubernetes by using Minikube
 
 ### Install Minkube https://github.com/kubernetes/minikube
 ```
 brew cask install virtualbox
 brew install minikube
 ```
-
+### Start Minikube
 ```
 minikube start
 minikube status
