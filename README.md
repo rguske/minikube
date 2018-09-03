@@ -1,4 +1,4 @@
-# Documenting my way to an Application-Deployment on Kubernetes by using Minikube
+# A documentation on my way to an Application-Deployment on Kubernetes by using Minikube
 
 ### Install Minkube https://github.com/kubernetes/minikube
 ```
