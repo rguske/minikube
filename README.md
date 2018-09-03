@@ -33,6 +33,7 @@ kubectl -n yelb create -f /path.../yelb/deployments/platformdeployment/Kubernete
 # Check the running services using
 ```
 minikube service list
+
 |-------------|----------------------|-----------------------------|
 |  NAMESPACE  |         NAME         |             URL             |
 |-------------|----------------------|-----------------------------|
