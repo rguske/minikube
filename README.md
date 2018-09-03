@@ -45,7 +45,7 @@ minikube service list
 | yelb        | yelb-ui              | http://192.168.99.100:30504 |
 |-------------|----------------------|-----------------------------|
 
-Open the Yleb UI over http://192.168.99.100:30504
+Open the Yelb UI over http://192.168.99.100:30504
 ```
 ### Start the Kubernetes Dashboard
 ```
