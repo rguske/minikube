@@ -30,9 +30,22 @@ cd /path...
 kubectl create namespace yelb
 kubectl -n yelb create -f /path.../yelb/deployments/platformdeployment/Kubernetes/cnawebapp-minikube-nodeport.yaml
 ```
-#Check the running services using
+# Check the running services using
 ```
 minikube service list
+|-------------|----------------------|-----------------------------|
+|  NAMESPACE  |         NAME         |             URL             |
+|-------------|----------------------|-----------------------------|
+| default     | kubernetes           | No node port                |
+| kube-system | kube-dns             | No node port                |
+| kube-system | kubernetes-dashboard | http://192.168.99.100:30000 |
+| yelb        | redis-server         | No node port                |
+| yelb        | yelb-appserver       | No node port                |
+| yelb        | yelb-db              | No node port                |
+| yelb        | yelb-ui              | http://192.168.99.100:30504 |
+|-------------|----------------------|-----------------------------|
+
+Open the Yleb UI over http://192.168.99.100:30504
 ```
 ### Start the Kubernetes Dashboard
 ```
