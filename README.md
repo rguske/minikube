@@ -17,7 +17,6 @@ minikube get-k8s-versions
 ```
 minikube start --kubernetes-version v1.10.0
 kubectl cluster-info
-kubectl cluster-info
 kubectl get pod
 kubectl get deployment
 ```
