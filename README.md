@@ -14,7 +14,7 @@ minikube ip
 minikube get-k8s-versions
 ```
 
-# You can start a new k8s-cluster with a specific version by using
+### You can start a new k8s-cluster with a specific version by using
 ```
 minikube start --kubernetes-version v1.10.0
 kubectl cluster-info
@@ -36,11 +36,11 @@ kubectl -n yelb create -f /path.../yelb/deployments/platformdeployment/Kubernete
 ```
 minikube service list
 ```
-# Start the Kubernetes Dashboard
+### Start the Kubernetes Dashboard
 ```
 minikube dashboard
 ```
-# Delete a specific POD/ Container for demoing Kubernetes Health-Monitoring
+### Delete a specific POD/ Container for demoing Kubernetes Health-Monitoring
 ```
 kubectl -n yelb get pod
 kubectl -n yelb delete pod *pod-id*
