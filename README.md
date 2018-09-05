@@ -30,7 +30,7 @@ cd /path...
 kubectl create namespace yelb
 kubectl -n yelb create -f /path.../yelb/deployments/platformdeployment/Kubernetes/cnawebapp-minikube-nodeport.yaml
 ```
-# Check the running services using
+### Check the running services using
 ```
 minikube service list
 
