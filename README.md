@@ -10,7 +10,6 @@ brew install minikube
 minikube start
 minikube status
 minikube ip
-minikube get-k8s-versions
 ```
 
 ### You can start a new k8s-cluster with a specific version by using
