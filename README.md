@@ -5,6 +5,11 @@
 brew cask install virtualbox
 brew install minikube
 ```
+**Start Minikube with VMware Fusion driver**
+```
+minikube --vm-driver=vmwarefusion start
+```
+
 ### Start Minikube
 ```
 minikube start
